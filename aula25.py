@@ -17,3 +17,4 @@ if encontrar in nome2:
   print(f'{encontrar} esta em {nome2}')
 else:
   print(f' ta aqui nao fera fods')
+  
