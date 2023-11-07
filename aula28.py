@@ -11,7 +11,7 @@ passo
 obs.: a função len retorna a qtd
 de caracteres da str
 """
-variavel = 'Olá mundo'
+variavel = 'Olá mundo'      
 print(variavel[4:])
 #dessa forma vai fatirar do indice 4 ate o fim
 print(len(variavel))
@@ -22,3 +22,4 @@ print(variavel[0:9:2])
 # vai de 0  9 no passo 2 pegando basicamente 1 letra e pulando a outra 
 print(variavel[::-1])
 # nesse caso ja inverte a string do inicio ao final no passo negativo inverte o role
+     
