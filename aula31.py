@@ -1,9 +1,4 @@
-"""
-Faca um programa que peca ao usuario pra digitar um numero inteiro, informe se este numero e par ou impar
-. Caso o usuário não digite um número inteiro, informe que não é um número inteiro.
 
-
-"""
 
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário descrito, exiba a saudaçao apropriada . EX.
