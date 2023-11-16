@@ -6,6 +6,7 @@
 
 nome = 'Elias'
 print(nome[2])
+print(nome[2])
 print(10*'----')
 print('a' in nome)
 # mostra se tem o caracter na variavel o not in faz o inverso se tiver fala que nao e assim por diante
