@@ -12,7 +12,7 @@ Se nome e idade forem digitados :
          A ultima letra do seu nome é {letra}
 se nada for digitado em nome ou idade :
 ....exiba "Desculpe, vc deixou campos vazios."
-                                         
+         Fatiamento  [i:f:p] [::]                                
 """
 nome = input("digite seu nome ai fera :" )
 idade = input("digite sua idade ai fera :")
@@ -25,7 +25,6 @@ if nome and idade:
   else:
     print('Seu nome NÃO contem espaços')
   print(f"Sua idade e {idade}")
-  print(f'o comprimento do seu nome e: {len(nome)}')
   print(f'o comprimento do seu nome e: {len(nome)}')
 
 
