@@ -31,4 +31,4 @@ if nome and idade:
 
 
 if not nome or not idade:
-  print('Viado ce tem q mandar os parametros arrombadinho')
+  print('Viado ce tem q mandar os parametros arrombadinho')   
