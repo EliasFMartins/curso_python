@@ -11,7 +11,7 @@ try:
     print(f'Bom dia sao  {hora_number} horas  ')
   elif hora_number >= 12 and hora_number < 18:
     print(f'Boa Tarde sao {hora_number} horas')
-  elif hora_number>=18 and   hora_number <= 24:
+  elif hora_number>=18 and   hora_number <= 23:
     print(f'Boa noite sao {hora_number} horas')
   else:
     print(f'hora digitada nao coresponde')

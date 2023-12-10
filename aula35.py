@@ -4,7 +4,6 @@ while (enquanto)
 Executa uma ação enquanto uma condição for verdadeira
 """
 valor = True
-
 while valor:
   name = input('Qual seu nome Coleginha ?')
   print(f'vai ser executado ate o breack ser ativado')
