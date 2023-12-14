@@ -4,6 +4,16 @@ Tipo List -  Mutável
 Suporta vários valores de qualquer tipo 
 Conhecimentos reutilizáveis - índices e fatiamento
 Métodos úteis: append, insert, pop, del,, clear, extend, +
+        append - Adiciona um item ao final
+        insert - Adiciona um item no índice escolhido 
+        pop - Remove do final ou do índice escohido
+        del - Apaga um índice
+        clear - Limpa a lista
+        extend - estende a lista
+        + - concatena listas
+Create Read Update Delete
+Criar, ler, alterar, apagar = lista[i] (crud)
+
 """
 number_list = [10, 20, 30, 40]
 number_list[2] = 300
