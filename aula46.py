@@ -30,3 +30,13 @@ ultimo_valor = number_list.pop(   ) # remove the  last element from list and ret
 print(ultimo_valor)
 print(number_list)
 # if list is very large avoid removing element from start and mid point for avoid cossuming processament power
+
+
+lista =  [10,20,30,40]
+lista.append("Elias Fodão")
+nome = lista.pop()
+lista.append(40028922)
+del lista[-1]
+# lista.clear()
+lista.insert(2,"Elias Fodão" ) #passa o index e o valor q estara no lugar
+print(lista, nome)
