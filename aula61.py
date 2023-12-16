@@ -23,6 +23,7 @@ contrario disso :
 O primeiro digito do cpf e 7
 .replace('.','') da pra usar ele pra subistituir oque for colocado no primeiro parametro pelo segundo
 """
+#validador de CPF
 import re 
 import sys
 
