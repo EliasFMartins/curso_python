@@ -7,7 +7,9 @@ e retornar um valor específico.
 por padrão, funções Python retornam None (nada)
 Funções podem usar parâmetros para receber valores. Parâmetro é o nome da "variável" dentro dos parênteses, argumento é o valor passado para o parâmetro no momento da execução da função.
 """
-
+# def example( params, params)
+# return print(params +parans)
+# example(argumentos,argumentos)
 
 def Print(param='teste'):
     print(param)
@@ -16,3 +18,4 @@ def Print(param='teste'):
 def soma(x, y):
     print(x + y)
 soma(5,8)
+soma(y=3,x=8) # poode alterar a ordem que envia-se os parametros
