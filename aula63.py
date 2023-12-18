@@ -22,3 +22,4 @@ def soma(x, y, z=None):
     print(x + y)
 soma(5,8)
 soma(y=3,x=8,z=5) # poode alterar a ordem que envia-se os parametros
+#teste
