@@ -15,7 +15,10 @@ def Print(param='teste'):
     print(param)
 
 
-def soma(x, y):
+def soma(x, y, z=None):
+    #cuidado ao colocar 0 por default pois ele e false entao n leria a função
+    if z is not None:
+        print(f'{x=} {y=} {z=}', x+ y + z)
     print(x + y)
 soma(5,8)
-soma(y=3,x=8) # poode alterar a ordem que envia-se os parametros
+soma(y=3,x=8,z=5) # poode alterar a ordem que envia-se os parametros
