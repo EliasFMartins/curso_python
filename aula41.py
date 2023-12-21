@@ -21,3 +21,4 @@ print(
     f'{letra_que_apareceu_mais_vezes} que apareceu'
     f' {apareceu_mais_vezes}x'
 )
+

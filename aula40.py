@@ -42,7 +42,7 @@ while True:
     operadores_permitidos = '+-/*'
     
     if operador not in operadores_permitidos:
-        print('Operador não e valido')
+        print('Operador não e valido', sep=' ')
         continue
     if len(operador) > 1:
         print('Operador não deve ter mais de um caracter')
