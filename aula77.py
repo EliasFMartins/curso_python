@@ -8,7 +8,16 @@
 # set (iterável) ou {1,2,3}
 s1 = set() # vazio
 s1 = {'Elias',1,2,3}
-print(s1)
+s1 = {1,2,3,3,4,5,5,1,2}# naturalmente eliniman valores duplicados
+l1 = [1,2,36,3,3,3,1,2]
+s2 = set(l1)# remove valores duplicados
+l2 = list(s2) #converte pra lista novamente
+s1 = set('Elias')# não garatem ordem g.g
+s1 = {1,2,3,4,}# nao aceita dados mutaveis la dentro no caso arrays obj  e assim por diante
+
+print(3 in s1) # verificar se tem o numero dentro do set
+for numero in s1:
+    print(numero)
 # Sets são eficientes para remover valores duplicados
 # de iteráveis.
 # - eles não tem índixes;
