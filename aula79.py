@@ -4,3 +4,4 @@ while True:
     letra = input('Digite: ')
     letras.add(letra)
     print(letras)
+    if letras = letra:
