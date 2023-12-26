@@ -25,9 +25,21 @@ lista_de_listas_de_inteiros = [
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
 
-for lista in lista_de_listas_de_inteiros:
-    print('listinha e.,e',lista)
-    set_list = set(lista)
-    if len(lista) > len(set_list):
-       print('-1')
+
+def encontra_primeiro_duplicado(lista_inteiro) :
+    numero_checados = set()
+    primeiro_duplicado = -1
     
+    for numero in lista_inteiro:
+        if numero in numero_checados:
+            primeiro_duplicado = numero
+            break
+        numero_checados.add(numero)
+        
+    return primeiro_duplicado
+    
+for lista in lista_de_listas_de_inteiros:
+    print(
+    lista,
+    encontra_primeiro_duplicado(lista)
+    )
