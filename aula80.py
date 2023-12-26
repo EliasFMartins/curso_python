@@ -27,3 +27,7 @@ lista_de_listas_de_inteiros = [
 
 for lista in lista_de_listas_de_inteiros:
     print('listinha e.,e',lista)
+    set_list = set(lista)
+    if len(lista) < len(set_list):
+        print('tamanho diverge')
+    
