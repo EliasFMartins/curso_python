@@ -1,6 +1,5 @@
 # Introdução ás GEnerator functions em Python
 # generator  = (n for n in range (1000))
-
 def generator (n=0, maximum=10):
     while True:
         yield n
