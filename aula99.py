@@ -8,7 +8,10 @@ from aula99_package import modulo
 
 # import aula99_package
 
-print(soma_do_modulo(2,5))
-print(aula99_package.modulo.soma_do_modulo(2,5))
-print(modulo.soma_do_modulo(2,5))
-print(variavel)
+# print(soma_do_modulo(2,5))
+# print(aula99_package.modulo.soma_do_modulo(2,5))
+# print(modulo.soma_do_modulo(2,5))
+# print(variavel)
+# from aula99_package.modulo import fala_oi
+# fala_oi()
+import aula99_package
