@@ -14,4 +14,5 @@ from aula99_package import modulo
 # print(variavel)
 # from aula99_package.modulo import fala_oi
 # fala_oi()
-import aula99_package
+from aula99_package import fala_oi,soma_do_modulo,variavel
+print(aula99_package.fala_oi())
