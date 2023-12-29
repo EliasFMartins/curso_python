@@ -11,9 +11,12 @@
 #     main_list = lista1 if len(lista1) < len(lista2) else lista2
 #     return [ (item , lista2[indice] ) for indice, item in enumerate(main_list)]
 
-
+        
 l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 l2 = ['BA', 'SP', 'MG', 'RJ']
+symbol = "[⬢](bold green) "
+symbol = " "
+
 
 # resultado = zipper(l1, l2)
 # print(resultado)
@@ -29,5 +32,6 @@ print(zipper(l1,l2))
 print (list(zip(l1,l2)))# faz a mesma coisa sem o list vai vir uma variavel na memoria com list meio q converte o valor
 from itertools import zip_longest
 print(list(zip_longest(l1,l2, fillvalue='Sem Cidade')))
+
 
 
