@@ -10,6 +10,7 @@
 import json
 import os
 
+
 def listar(tarefas):
     print()
     if not tarefas:
@@ -55,21 +56,44 @@ def adicionar(tarefa, tarefas):
     print()
 
 
-tarefas = []
+def ler(tarefas,caminho_arquivo):
+    dados = []
+    try:
+         with open(caminho_arquivo, 'r') as arquivo:
+            dados = json.load(arquivo)
+    except FileNotFoundError:
+        print('Arquivo nao existe')
+        salvar(tarefas, caminho_arquivo)
+    return dados
+
+
+def salvar(tarefas,caminho_arquivo):
+    dados = tarefas
+    with open(caminho_arquivo, 'w') as arquivo:
+            dados = json.dump(tarefas,arquivo,indent=2)
+    return dados
+
+
+CAMINHO_ARQUIVO = 'aula122.json'
+
+tarefas = ler([], CAMINHO_ARQUIVO)
 tarefas_refazer = []
 while True:
     print('Comandos: listar, desfazer e refazer')
     tarefa = input('Digite uma tarefa ou comando: ')
     comandos = {
-        'listar':lambda: listar(tarefas),
-        'desfazer':lambda:desfazer(tarefas,tarefas_refazer),
-        'refazer':lambda:refazer(tarefas, tarefas_refazer),
-        'clear':lambda:os.system('clear'),
-        'adicionar':lambda:adicionar(tarefa,tarefas),
+        'listar': lambda: listar(tarefas),
+        'desfazer': lambda: desfazer(tarefas, tarefas_refazer),
+        'refazer': lambda: refazer(tarefas, tarefas_refazer),
+        'clear': lambda: os.system('clear'),
+        'adicionar': lambda: adicionar(tarefa, tarefas),
     }
     comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else\
         comandos['adicionar']
     comando()
+    salvar(tarefas, CAMINHO_ARQUIVO)
+    # with open('base_dados.json', 'w')as arquivo:
+    #     json.dump(tarefas, arquivo, indent=2)
     # tarefa = input('Digite uma tarefa ou comando: ')
     # if tarefa == 'listar':
     #     listar(tarefas)
@@ -91,4 +115,4 @@ while True:
     #     continue
 
 
-#metodo get pra dicionario python rever 
+# metodo get pra dicionario python rever
