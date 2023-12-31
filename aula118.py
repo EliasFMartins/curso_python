@@ -1,4 +1,4 @@
-
+import os
 # Criando arquivos com Python
 # Usamos a função open para abrir
 # um arquivo em Python (ele pode ou não existir)
@@ -58,3 +58,9 @@ with open(caminho_arquivo, 'w+', encoding='utf8') as arquivo:# se vc executar so
     arquivo.write('Pço dia saude e alegria\n')
     arquivo.writelines(
         ('Linha3\n', 'Linha4\n', 'Linha5\n'))
+
+# os.remove(caminho_arquivo)# sapoha apaga o arquivo literalmente `-`
+
+# os.unlink(caminho_arquivo)# sapoha apaga o arquivo literalmente `-`
+# os.rename(caminho_arquivo, 'aula116-2.txt') # move o arquivo e renomeia
+os.remove('aula116-2.txt')
