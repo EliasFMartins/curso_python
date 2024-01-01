@@ -10,19 +10,17 @@ print(string.upper())
 print(isinstance(string,str))
 
 class Pessoa:
-    ...
-p1  = Pessoa()
-p1.nome = 'Elias'
-p1.sobrenome='Martins'
+    def __init__(self,nome, sobrenome) :
+        self.nome = nome
+        self.sobrenome = sobrenome
+        pass
 
 
-p2  = Pessoa()
-p2.nome = 'Pao'
-p2.sobrenome='Frances'
-print(p1)
-print(p1.nome)#atributo sempre  sem parenteses por serem dados
+
+p1  = Pessoa('Elias', 'Martins')
+
 print(p1.sobrenome)
+print(p1.nome)
 
-print(p2)
-print(p2.nome)#atributo sempre  sem parenteses por serem dados
-print(p2.sobrenome)
+# p2  = Pessoa()
+
