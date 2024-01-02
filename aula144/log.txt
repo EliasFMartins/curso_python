@@ -5,3 +5,5 @@ Error: qualquer coisa1
 Success: que legal
 Success: Galaxy S esta ligado
 Success: iPhone esta ligado
+#remada pra dorsalSuccess: Galaxy S esta ligado
+Success: iPhone esta ligado
