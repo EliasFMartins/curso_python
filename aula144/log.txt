@@ -3,3 +3,5 @@ Error: teste
 Success: teste
 Error: qualquer coisa1
 Success: que legal
+Success: Galaxy S esta ligado
+Success: iPhone esta ligado
