@@ -1,0 +1,5 @@
+Success: teste
+Error: teste
+Success: teste
+Error: qualquer coisa1
+Success: que legal
